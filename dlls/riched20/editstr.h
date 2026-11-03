@@ -432,6 +432,8 @@ typedef struct tagME_TextEditor
   /*for IME */
   int imeStartIndex;
   DWORD langOptions;
+  int defaultTabCount;
+  LONG defaultTabStops[MAX_TAB_STOPS];
   DWORD selofs; /* The size of the selection bar on the left side of control */
   ME_SelectionType nSelectionType;
 
