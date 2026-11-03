@@ -431,6 +431,7 @@ typedef struct tagME_TextEditor
   DWORD freeze_count;
   /*for IME */
   int imeStartIndex;
+  DWORD langOptions;
   DWORD selofs; /* The size of the selection bar on the left side of control */
   ME_SelectionType nSelectionType;
 
